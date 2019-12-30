@@ -1,0 +1,3 @@
+PATH=/home/chromebot/crocoite-sandbox/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+VIRTUAL_ENV=/home/chromebot/crocoite-sandbox
+HOME=/home/chromebot

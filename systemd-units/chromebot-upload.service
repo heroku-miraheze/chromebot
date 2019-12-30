@@ -1,0 +1,8 @@
+[Unit]
+Description=Upload files to IA
+
+[Service]
+EnvironmentFile=/home/chromebot/systemd-env
+ExecStart=/home/chromebot/upload.sh
+StandardOutput=journal
+

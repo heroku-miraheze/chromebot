@@ -1,0 +1,13 @@
+[Unit]
+Description=chromebot IRC bot
+After=network-online.target
+
+[Service]
+EnvironmentFile=/home/chromebot/systemd-env
+ExecStart=/home/chromebot/crocoite-sandbox/bin/crocoite-irc
+StandardOutput=fd:chromebot-irc.socket
+Sockets=chromebot-irc.socket
+
+[Install]
+WantedBy=multi-user.target
+

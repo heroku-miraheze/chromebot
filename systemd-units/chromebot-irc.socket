@@ -1,0 +1,5 @@
+[Unit]
+Description=chromebot IRC FIFO
+
+[Socket]
+ListenFIFO=/home/chromebot/chromebot-irc.fifo

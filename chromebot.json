@@ -1,0 +1,18 @@
+{
+  "irc": {
+    "host": "irc.underworld.no",
+    "port": 6667,
+    "ssl": false,
+    "nick": "chromebot",
+    "channels": [
+      "#archivebot"
+    ]
+  },
+  "tempdir": "/home/chromebot/crocoite-data/temp",
+  "destdir": "/home/chromebot/crocoite-data/finished",
+  "process_limit": 2,
+  "blacklist": {
+    "^https?://(.+\\.)?local(host)?/": "Not acceptable"
+  },
+  "need_voice": false
+}
