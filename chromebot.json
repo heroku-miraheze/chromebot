@@ -1,6 +1,6 @@
 {
   "irc": {
-    "host": "irc.underworld.no",
+    "host": "irc.hackint.org",
     "port": 6667,
     "ssl": false,
     "nick": "chromebot",
